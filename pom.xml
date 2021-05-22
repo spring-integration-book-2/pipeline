@@ -16,6 +16,7 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
+             
         <dependency>
             <version>1.11.567</version>
             <groupId>com.amazonaws</groupId>
