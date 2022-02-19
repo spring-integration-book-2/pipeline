@@ -40,7 +40,7 @@ public class SamplePipelineApplication {
     ApplicationListener<ApplicationReadyEvent> applicationReadyListener(Environment environment) {
         return event -> {
             for (var propertyName : new String[]{"pipeline.job.root", "publication.root", "publication.code"}) {
-                log.info("test: " + propertyName + "=" + environment.getProperty(propertyName));
+                        log.info("test: " + propertyName + "=" + environment.getProperty(propertyName));
             }
         };
     }
